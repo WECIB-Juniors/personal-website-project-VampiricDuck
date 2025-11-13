@@ -1,3 +1,29 @@
+/* Color Palette:
+Light Shades: #f4c4d4;
+Light Accent: #ea92ab;
+Main Brand Color: #9085d0;
+Dark Accent: #8c76be;
+Dark Shades: #61567d;
+*/
 * {
-	box: sizing 2px;
+	box-sizing: border-box;
+}
+.prename{
+    color: #ea92ab;
+    text-shadow: 2px 2px #f4c4d4;
+    font-family: "Comic Sans MS";
+    font-size: 25px;
+    margin-bottom: 0;
+}
+.name{
+    color: #f4c4d4;
+    text-shadow: 2px 2px #ea92ab;
+    font-family: "Comic Sans MS";
+    font-size: 35px;
+    margin-top: 0;
+    line-height: 10px;
+}
+.body{
+    background-color: #9085d0;
+    font-family: "Comic Sans MS";
 }
