@@ -1,14 +1,26 @@
 /* Color Palette:
 Light Shades: #f4c4d4;
 Light Accent: #ea92ab;
-Main Brand Color: #9085d0;
+Main Brand Color: #af7fc2;
+Background Color: #9095d0;
 Dark Accent: #8c76be;
 Dark Shades: #61567d;
 */
 * {
 	box-sizing: border-box;
 }
-.prename{
+img.pfp{
+    display: block;
+    border-radius: 50%;
+    width: 100px;
+    float: left;
+}
+.pfpcontainer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nameintro{
     color: #ea92ab;
     text-shadow: 2px 2px #f4c4d4;
     font-family: "Comic Sans MS";
@@ -21,9 +33,10 @@ Dark Shades: #61567d;
     font-family: "Comic Sans MS";
     font-size: 35px;
     margin-top: 0;
-    line-height: 10px;
+    line-height: 40px;
 }
 .body{
-    background-color: #9085d0;
+    background-color: #9095d0;
+    color: #353044;
     font-family: "Comic Sans MS";
 }
