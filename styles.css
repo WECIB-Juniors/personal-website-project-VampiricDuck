@@ -2,7 +2,6 @@
 Light Shades: #f4c4d4;
 Light Accent: #ea92ab;
 Main Brand Color: #af7fc2;
-Background Color: #9095d0;
 Dark Accent: #8c76be;
 Dark Shades: #61567d;
 */
@@ -39,4 +38,19 @@ img.pfp{
     background-color: #9095d0;
     color: #353044;
     font-family: "Comic Sans MS";
+}
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.navbar li {
+    float: left;
+}
+.navbar li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
