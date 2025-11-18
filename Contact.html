@@ -5,22 +5,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacts</title>
-    <link rel="stylesheet" href="styles.css">
 </head>
+    <header>
+        <div class="pfpcontainer">
+            <img class="pfp" src="pfp.jpg" alt="Profile Picture" width="100">
+            <div class="title">
+                <h1>Contact Me</h1>
+            </div>
+        </div>
+        <br>
+    </header>
 <body>
-    <img src="pfp.jpg" alt="Profile Picture" width="100">
-    <h2>Contact Me</h2>
-    
-    <p>If you wish to contact me my email is: <em><a href="mailto:crogers3@my.waketech.edu">crogers3@my.waketech.edu</a></em></p>
-    <br>
+    <div class="container">
+        <div class="center">
+            <p>If you wish to contact me my email is: <em><a href="mailto:crogers3@my.waketech.edu">crogers3@my.waketech.edu</a></em></p>
+        </div>
+    </div>
+</body>
     <footer>
         <nav>
-            <ul class="navbar">
-                <li><a href="interests.html">Interests</a></li>
-                <li><a href="index.html">Main</a></li>
-                <li><a href="Contact.html">Contacts</a></li>
-            </ul>
+            <div class="navbar">
+                    <a href="interests.html">Interests</a></li>
+                <div class="navbar-centered">
+                <a href="index.html">Main</a></li>
+                </div>
+                <div class="navbar-right">
+                    <a href="Contact.html" class="active">Contacts</a></li>
+                </div>
+            </div>
         </nav>
+        <p class="smalltxt">© 2024 Serena Rogers</p>
     </footer>
 </body>
 </html>
